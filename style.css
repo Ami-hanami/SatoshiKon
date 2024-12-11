@@ -1,0 +1,134 @@
+body {
+    background-color: black;
+    font-family: 'Times New Roman', sans-serif;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+.menu li {
+    margin-right: 125px;
+    margin-left: 40px;
+    padding-bottom: 28px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color:#2d84d3;
+}
+
+.btn {
+    border-radius: 3px;
+    font-weight: 700; 
+}
+
+button.btn {
+    height: 46px;
+    margin-bottom: 26px;
+    margin-left: 20px;
+    width: 250px;
+}
+
+.btn:active {
+    background: #2d84d3;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding-top: 30px;
+    height: 15px;
+}
+
+.title {
+    width: 65%;
+    height: 400px;
+    background-image: url(https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_66c192c43a3e48650604e794_66c19a043a3e486506119b11/scale_1200);
+    background-size: auto 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.title-h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 0;
+    color: white;
+    padding-top: 100px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+.text {
+    color: #eaf6f7;
+    text-align: center;
+    text-align: justify;
+    font-size: 22px;
+    margin: 20px 300px 20px 300px;
+    line-height: 25px;
+}
+
+.quote {
+   color: #fb8508;; 
+   text-align: center;
+   font-size: 22px;
+   font-style: italic;
+   font-weight: 900;
+   line-height: 25px;
+   margin: 20px 0 20px 0;
+}
+
+.text-p {
+    text-align: center;
+    margin: 20px 70px 20px 70px;
+    color: #eaf6f7;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 65%;
+    height: auto; 
+}
+
+.thumb-img {
+    width: 100%;
+    height: 100%;
+}
+
+.thumbnails-container1, .thumbnails-container2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.thumb {
+    border: 3px solid black;
+    width: 550px;
+    height: auto;
+}
+
+form {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
